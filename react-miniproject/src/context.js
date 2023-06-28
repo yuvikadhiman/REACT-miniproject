@@ -52,7 +52,6 @@ const AppProvider = (props) => {
     <SearchContext.Provider
       value={{
         loading: loading,
-        // search: search,
         cocktails: cocktails,
         setSearch: setSearch,
       }}
